@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Microgrid Forecasting and Stochastic Optimization
 
 Code, data artifacts, and results supporting the manuscript:

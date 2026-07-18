@@ -1,0 +1,4 @@
+scenario,probability,daily_wind_kwh,representative_label,target_quantile
+64.0,0.07,2147.3758943358353,Low-wind scenario,0.05
+35.0,0.002,15263.291701492162,Median-wind scenario,0.5
+79.0,0.002,28982.998743253273,High-wind scenario,0.95

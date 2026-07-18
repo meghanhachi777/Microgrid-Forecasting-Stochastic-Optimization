@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Microgrid Forecasting and Stochastic Optimization"
+authors:
+  - family-names: "Carolina"
+    given-names: "Meghan"
+version: "1.0.0"
+date-released: "2026-07-17"
+preferred-citation:
+  type: article
+  title: "From Wind Forecast Uncertainty to Decision Value: Probabilistic Time-Series Foundation Models for Risk-Aware Microgrid Optimization"
+  authors:
+    - family-names: "Carolina"
+      given-names: "Meghan"
+  year: 2026
+  # journal, volume, and DOI: update upon acceptance

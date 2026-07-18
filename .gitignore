@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / external volumes
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.idea/
+.vscode/
+
+# Large / confidential data (raw datasets are not distributed)
+data/raw/*
+!data/raw/.gitkeep
+
+# Model weights and solver logs
+*.pt
+*.h5
+*.lp
+*.log
+gurobi.log

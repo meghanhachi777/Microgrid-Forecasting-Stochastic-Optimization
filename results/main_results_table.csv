@@ -1,0 +1,18 @@
+metric,value,unit
+Stochastic objective (RP),479.3211753706983,monetary units
+Expected-value performance (EEV),1183.6603124841824,monetary units
+Wait-and-see cost (WS),435.7808152963587,monetary units
+Value of stochastic solution (VSS),704.3391371134842,monetary units
+VSS relative to RP,146.94513268034967,%
+Expected value of perfect information (EVPI),43.54036007433956,monetary units
+EVPI relative to RP,9.08375475810478,%
+RP expected recourse cost,307.7488597501858,monetary units
+EEV expected recourse cost,1093.750312484182,monetary units
+Out-of-sample mean recourse cost,298.1688860468595,monetary units
+Out-of-sample P95 recourse cost,570.292792612557,monetary units
+Out-of-sample scenarios solved optimally,1000.0,scenarios
+Out-of-sample scenarios with load shedding,0.0,scenarios
+RP expected unmet demand,0.0,%
+EEV expected unmet demand,1.1428302540094866,%
+100-scenario runtime,2.359773874282837,seconds
+100-scenario MIP gap,0.007348842724981,fraction

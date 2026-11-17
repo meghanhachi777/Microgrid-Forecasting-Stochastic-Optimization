@@ -4,8 +4,7 @@
 
 Code, data artifacts, and results supporting the manuscript:
 
-> **From Wind Forecast Uncertainty to Decision Value: Probabilistic
-> Time-Series Foundation Models for Risk-Aware Microgrid Optimization**
+> **From Wind Forecast Uncertainty to Decision Value: Probabilistic Time-Series Foundation Models for Stochastic Microgrid Scheduling**
 
 The repository implements the full forecasting-to-decision pipeline:
 multi-horizon wind-speed forecasting (persistence baselines, CNN-LSTM,
@@ -83,10 +82,12 @@ python -m pytest tests/
 
 ## Data availability
 
-The raw wind and operational datasets are subject to a commercial
-confidentiality agreement with the industrial partner and cannot be
-redistributed; see `data/README.md` for what is and is not included
-and for the expected file layout.
+The hourly weather and consumption record used in this study is publicly available as
+the Smart Home Dataset with Weather Information. The data-preparation script with all
+unit and time-zone conversions, the microgrid parameters, the code, the frozen forecast
+arrays for every model and seed, the representative-day scenario libraries, and the daily
+backtest records are available at https://github.com/meghanhachi777/Microgrid-For
+ecasting-Stochastic-Optimization.
 
 ## Citation
 

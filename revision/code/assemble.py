@@ -1,6 +1,5 @@
 """Assemble the revised manuscript, compile clean and tracked-changes PDFs."""
 import os, re, shutil, subprocess, sys
-W = "/home/claude/work"; REV = f"{W}/paper/rev"; ORIG = f"{W}/paper/orig"; OUT = f"{W}/paper/out"
 os.makedirs(OUT, exist_ok=True)
 m = open(f"{REV}/methods_part.tex").read(); a = open(f"{REV}/results_a.tex").read(); b = open(f"{REV}/results_b.tex").read()
 abstract = open(f"{REV}/abstract.tex").read().strip()

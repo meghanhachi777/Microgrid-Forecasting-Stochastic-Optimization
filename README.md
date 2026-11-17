@@ -6,13 +6,9 @@ Code, data artifacts, and results supporting the manuscript:
 
 > **From Wind Forecast Uncertainty to Decision Value: Probabilistic Time-Series Foundation Models for Stochastic Microgrid Scheduling**
 
-The repository implements the full forecasting-to-decision pipeline:
-multi-horizon wind-speed forecasting (persistence baselines, CNN-LSTM,
-PatchTST, Chronos-2 zero-shot), horizon-wise conformal calibration,
-dependence-preserving scenario generation, K-means scenario reduction,
-and a two-stage stochastic mixed-integer unit-commitment and dispatch
-model with VSS/EVPI analysis and 1,000-scenario out-of-sample
-validation, on data from an agro-export manufacturing microgrid.
+The repository implements a forecasting-to-decision pipeline for an illustrative microgrid driven by publicly available household consumption and weather records. It combines multi-horizon wind-speed forecasting using persistence baselines, CNN-LSTM, PatchTST, linear quantile regression and zero-shot Chronos-2; horizon-wise conformal calibration; residual-trajectory scenario generation; K-means scenario reduction; and two-stage stochastic unit commitment and dispatch solved with HiGHS.
+
+The revised analysis includes a 310-day backtest of simulated operating costs and load shedding using observed profiles, calibration ablations, probabilistic forecasting comparators, rolling-horizon dispatch and sensitivity analyses. Evaluation on the unreduced 1,000-scenario library assesses reduction fidelity; it is distinguished from evaluation on held-out observed days. The data assumptions, illustrative equipment configuration, code, frozen forecasts and results are documented in the `revision/` directory.
 
 ## Key results
 

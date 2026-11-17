@@ -1,0 +1,33 @@
+{
+ "source_rows": 8760,
+ "hours_kept": 8375,
+ "hours_with_wind": 8375,
+ "hours_interpolated": 1,
+ "hours_missing_after_interp": 0,
+ "first": "2023-01-01 00:00:00",
+ "last": "2023-12-15 22:00:00",
+ "wind_mph_mean": 6.636879854310962,
+ "wind_ms_10m_mean": 2.9670021980943284,
+ "wind_ms_10m_max": 10.13618496,
+ "wind_ms_hub_mean": 3.969633995941364,
+ "share_hub_below_cutin_4ms": 0.5814925373134329,
+ "load_kwh_p1_p99": [
+  0.08167869999999999,
+  4.404933700000006
+ ],
+ "demand_affine_a_b": [
+  143.38749507026535,
+  80.9575192765635
+ ],
+ "demand_kw_mean": 211.56785053315525,
+ "demand_kw_min_max": [
+  143.4522610856866,
+  525.0
+ ],
+ "demand_lag1_autocorr": 0.7846618273045204,
+ "demand_lag24_autocorr": 0.4576380623039156,
+ "mph_to_ms": 0.44704,
+ "meas_height_m": 10.0,
+ "hub_height_m": 80.0,
+ "shear": 0.14
+}

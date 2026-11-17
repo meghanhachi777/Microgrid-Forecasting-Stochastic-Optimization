@@ -1,0 +1,3 @@
+Assignment,scen_energy_mean,RP,EEV,VSS,same_commitment_as_base
+CQR first half / residuals second half,934.9560914794556,482.9671928704489,482.9671928704489,0.0,True
+CQR second half / residuals first half,1478.202806198141,464.96472948519664,474.2887976417925,9.324068156595843,True

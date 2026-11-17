@@ -1,0 +1,105 @@
+{
+ "S_unc": {
+  "n": 310,
+  "mean_diff": -0.46039601017779763,
+  "median_diff": 0.0,
+  "pct_of_base": -0.10205409047953208,
+  "ci_lo": -0.8706416176117393,
+  "ci_hi": -0.15452656120555783,
+  "days_better": 0,
+  "days_worse": 8,
+  "days_equal": 302,
+  "sign_p": 0.0078125,
+  "wilcoxon_p": 0.011718685599768628,
+  "same_commitment_days": 302
+ },
+ "S_raw": {
+  "n": 310,
+  "mean_diff": -0.4474570252424314,
+  "median_diff": 0.0,
+  "pct_of_base": -0.09918595889255932,
+  "ci_lo": -2.9354540484242597,
+  "ci_hi": 2.8662382308014407,
+  "days_better": 6,
+  "days_worse": 18,
+  "days_equal": 286,
+  "sign_p": 0.022655844688415527,
+  "wilcoxon_p": 0.05933346675499405,
+  "same_commitment_days": 286
+ },
+ "coverage_hourly": {
+  "cal": 0.8112903225806452,
+  "unc": 0.7788978494623655,
+  "raw": 0.8090053763440861
+ },
+ "interval_coverage_hourly": {
+  "cqr": 0.8108870967741936,
+  "native": 0.7809139784946236
+ },
+ "noon": {
+  "S_cal_noon_vs_S_cal": {
+   "n": 310,
+   "mean_diff": 3.008455373057817,
+   "median_diff": 0.0,
+   "pct_of_base": 0.6668719321158074,
+   "ci_lo": -1.2594017797372152,
+   "ci_hi": 6.386571028225354,
+   "days_better": 47,
+   "days_worse": 35,
+   "days_equal": 228,
+   "sign_p": 0.22424452830608183,
+   "wilcoxon_p": 0.05079714014969541
+  },
+  "EV_noon_vs_S_cal_noon": {
+   "n": 310,
+   "mean_diff": 14.9902078623321,
+   "median_diff": 0.0,
+   "pct_of_base": 3.3008055927635938,
+   "ci_lo": 1.0377395349405212,
+   "ci_hi": 33.44999270588884,
+   "days_better": 32,
+   "days_worse": 13,
+   "days_equal": 265,
+   "sign_p": 0.006608822842281368,
+   "wilcoxon_p": 0.030651633140125
+  },
+  "S_cal_noon_shed_days": 0,
+  "EV_noon_shed_days": 8
+ },
+ "commitment_agreement_with_S_cal": {
+  "EV": 268,
+  "MedP": 217,
+  "ChrMed": 223,
+  "Pers": 228,
+  "PI": 193
+ },
+ "mean_unit_hours": {
+  "S_cal": 12.254838709677419,
+  "EV": 9.135483870967741,
+  "MedP": 19.219354838709677,
+  "ChrMed": 18.73548387096774,
+  "Pers": 17.10967741935484,
+  "PI": 14.864516129032259
+ },
+ "solver": {
+  "mean_mip_gap_S_cal": 0.0007817584788067322,
+  "max_mip_gap": 0.004999202547067245,
+  "mean_seconds_per_day": 42.45938453366679
+ },
+ "regret_vs_PI": {
+  "S_cal": 13.753305188597826,
+  "EV": 53.6585566377887,
+  "MedP": 18.526690035619687,
+  "ChrMed": 24.193456468085152,
+  "Pers": 104.54788586054993
+ },
+ "gain_concentration": {
+  "total_gain": 12370.627949249172,
+  "share_from_top5_days": 1.02620956254603,
+  "share_from_top10_days": 1.048573025850043,
+  "days_positive": 25,
+  "days_negative": 17,
+  "max_daily_gain": 9483.377227160709,
+  "min_daily_gain": -204.94824392092565
+ }
+}

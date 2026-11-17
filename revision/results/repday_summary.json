@@ -1,0 +1,48 @@
+{
+ "rep_day": {
+  "date": "2023-10-25",
+  "origin_index": 7128,
+  "demand_mean_kw": 199.84902309332506,
+  "demand_min_max": [
+   153.38412955053542,
+   280.8881745351591
+  ],
+  "obs_energy_kwh": 3486.020725367733,
+  "scen_energy_mean": 1206.0119125320912,
+  "obs_energy_pct_in_scen": 89.4,
+  "speed_P10_P90_h1_h24": [
+   2.0154428401481326,
+   3.903567322205383,
+   0.7164847651113891,
+   3.9510456523309325
+  ]
+ },
+ "RP100": {
+  "objective": 475.60942178126845,
+  "first_stage": 224.76,
+  "unit_hours": [
+   0,
+   24,
+   0,
+   0
+  ],
+  "n_vars": 36288,
+  "n_cons": 59492,
+  "runtime_s": 23.092756748199463,
+  "shed_scen": 0
+ },
+ "forward_selection": {
+  "RP": 474.81701701480097,
+  "unit_hours": [
+   0,
+   24,
+   0,
+   0
+  ],
+  "same_commitment": true,
+  "P10_energy_red": 0.0
+ },
+ "rp_tail_1000": {
+  "top_prob_mass_of_highest_cost_rep_K100": 0.333
+ }
+}

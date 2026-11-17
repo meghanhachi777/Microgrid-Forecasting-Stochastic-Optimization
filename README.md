@@ -1,3 +1,5 @@
+> **Revision R1 (EAI-D-26-00883):** the revised code, frozen forecasts and backtest records are in [`revision/`](revision/). The files in `results/` and `figures/` belong to the original submission and are superseded; see `results/SUPERSEDED.md`.
+
 # Microgrid Forecasting and Stochastic Optimization
 
 Code, data artifacts, and results supporting the manuscript:

@@ -34,16 +34,6 @@ The revised analysis includes a 310-day backtest of simulated operating costs an
 
 https://github.com/meghanhachi777/Microgrid-Forecasting-Stochastic-Optimization/blob/main/revision/README.md
 
-Programmatic entry points:
-
-```python
-from optimization.parameters import load_parameters
-from optimization.stochastic_model import solve_stochastic, compute_vss_evpi
-
-params = load_parameters()
-rp = solve_stochastic(params, scenario_count=100)   # RP = 479.32
-value = compute_vss_evpi(params, scenario_count=100)  # VSS, EVPI, WS
-```
 
 ## Tests
 

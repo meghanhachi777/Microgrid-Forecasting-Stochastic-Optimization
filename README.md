@@ -45,10 +45,7 @@ python -m pytest tests/
 
 The hourly weather and consumption record used in this study is publicly available as
 the Smart Home Dataset with Weather Information. The data-preparation script with all
-unit and time-zone conversions, the microgrid parameters, the code, the frozen forecast
-arrays for every model and seed, the representative-day scenario libraries, and the daily
-backtest records are available at https://github.com/meghanhachi777/Microgrid-For
-ecasting-Stochastic-Optimization (folder revision/, release tag v2.0-R1)..
+unit and time-zone conversions, the microgrid parameters, the revised code, inputs, frozen forecasts, and results are available in the revision/ directory.
 
 ## Citation
 

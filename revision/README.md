@@ -14,7 +14,7 @@ The microgrid (4 PGUs, 392.6 kWh battery, 308.9/153.9 kW grid limits, time-of-us
 ## Pipeline (run in this order, from `code/`)
 | Step | Script | Output |
 |---|---|---|
-| 1 | `prep.py <aggregatenew_2023.csv> ../data` | `data/hourly.csv` |
+| 1 | `prep.py ../data/aggregatenew_2023.csv ../data` | `data/hourly.csv` |
 | 2 | `forecast_trained.py` | persistence, CNN-LSTM ×5 seeds, PatchTST ×5 seeds, linear quantile regression → `forecasts/*.npz` |
 | 3 | `forecast_chronos.py <chronos-2 dir>` | Chronos-2 zero-shot quantiles at every origin (24 h and 36 h) → `forecasts/chronos.npz` |
 | 4 | `eval_forecasts.py` | Tables 4–6, horizon DM grid, native probabilistic quality |

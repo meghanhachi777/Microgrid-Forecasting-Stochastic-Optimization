@@ -8,7 +8,7 @@ version: "1.0.0"
 date-released: "2026-07-17"
 preferred-citation:
   type: article
-  title: "From Wind Forecast Uncertainty to Decision Value: Probabilistic Time-Series Foundation Models for Risk-Aware Microgrid Optimization"
+  title: "From Wind Forecast Uncertainty to Decision Value: Probabilistic Time-Series Foundation Models for Stochastic Microgrid Scheduling"
   authors:
     - family-names: "Marino"
       given-names: "Carlos"
